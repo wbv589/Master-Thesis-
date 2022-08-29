@@ -7,9 +7,11 @@ This repository provides code for the master thesis: "Children, Wages and Sickne
 The code is found in the folder named "main" and is structured in the following way:
 
 
+VARIABLES:
 Chosen Variables List:        List of chosen variables from Statistics of Denmark
 
-Programs:
+
+PROGRAMS:
 0a data generation.sas        Process the raw data and saves the main sample in dataset; 
                               Children00, Children11, Children22
                               
