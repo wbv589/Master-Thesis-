@@ -10,7 +10,12 @@ The code is found in the folder named "main" and is structured in the following 
 Chosen Variables List:        List of chosen variables from Statistics of Denmark
 
 Programs:
-0a data generation            Process the raw data and saves the main sample in dataset; Children00, Children11, Children22
-0b data generation            Process the raw data and saves the main sample in dataset; Parents00, Parents00aa, Parents11, Parents22, Adults00, Adults11
-0c data generation            Process the raw data and saves the main sample in dataset 
+0a data generation            Process the raw data and saves the main sample in dataset; 
+                              Children00, Children11, Children22
+                              
+0b data generation            Process the raw data and saves the main sample in dataset; 
+                              Parents00, Parents00aa, Parents11, Parents22, Adults00, 
+                              Adults11, Adults22, Adults33
+                              
+
 
