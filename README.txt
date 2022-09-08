@@ -11,7 +11,7 @@ VARIABLES:
 Chosen Variables List:        List of chosen variables from Statistics of Denmark
 
 
-PROGRAMS:
+PROGRAMS DATA GENERATION:
 0a data generation.sas        Process the raw data and saves the main sample in dataset; 
                               Children00, Children11, Children22
                               
@@ -29,7 +29,27 @@ PROGRAMS:
                               Sickness.csv                          
 
 
-Event_study1.do               Use the main sample to estimate the main 10 year event study
+PROGRAMS CLEANING DATA:
+1a earnings cleaning.do       Cleaning earnings (adults) data set
+
+                              Saving final file as;
+                              1a earnings.dta   
+
+
+1b sickness cleaning.do       Cleaning sickness absence data set
+
+                              Saving final file as;
+                              1b sickness.dta      
+  
+  
+1c merge data.do              Merging earnings and sickness data
+
+                              Saving final file as;
+                              1c merge.dta    
+                              
+EVENT STUDY:                              
+2a event study.do             Use the main sample to estimate the main 10 year event study                              
+                              
                               
 
 
