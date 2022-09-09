@@ -28,21 +28,27 @@ PROGRAMS DATA GENERATION:
                               Saving final file as;
                               Sickness.csv                          
 
+0d data generation.sas        Process the raw data and saves the main sample in dataset; 
+                              Employees00
+                                
+                              Saving final file as;
+                              Employees.csv                        
+
 
 PROGRAMS CLEANING DATA:
-1a earnings cleaning.do       Cleaning earnings (adults) data set
+1a earnings cleaning.do       Cleaning earnings (adults) data set;
 
                               Saving final file as;
                               1a earnings.dta   
 
 
-1b sickness cleaning.do       Cleaning sickness absence data set
+1b sickness cleaning.do       Cleaning sickness absence data set;
 
                               Saving final file as;
                               1b sickness.dta      
   
   
-1c merge data.do              Merging earnings and sickness data
+1c merge data.do              Merging earnings and sickness data;
 
                               Saving final file as;
                               1c merge.dta    
