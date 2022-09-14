@@ -34,6 +34,12 @@ PROGRAMS DATA GENERATION:
                               Saving final file as;
                               Employees.csv                        
 
+0e data generation.sas        Process the raw data and saves the main sample in dataset; 
+                              Robustness
+                                
+                              Saving final file as;
+                              Robustness.csv 
+
 
 PROGRAMS CLEANING DATA:
 1a earnings cleaning.do       Cleaning earnings (adults) data set;
@@ -55,14 +61,20 @@ PROGRAMS CLEANING DATA:
 
 MERGING DATA:  
 1d merge data.do              Merging earnings and sickness data;
-                              sickness earnings merged.dta
+                              1d sickness earnings merged.dta
                           
                               Merging sickness earnings employees data and saving final file as;
-                              sickness earnings employees merged.dta                   
+                              1d sickness earnings employees merged.dta                   
                               
 EVENT STUDY:                              
 2a event study.do             Use the main sample to estimate the main 10 year event study                              
-                              
-                              
+        
+        
+
+ROBUSTNESS ANALYSIS:                              
+3a occupation.do             Robustness analysis considering employees employed on the basis of the 
+                             Danish Salaried Employees Act (funktionærloven);
+                             3a occupation.dta
+                             
 
 
