@@ -46,12 +46,19 @@ PROGRAMS CLEANING DATA:
 
                               Saving final file as;
                               1b sickness.dta      
-  
-  
-1c merge data.do              Merging earnings and sickness data;
+
+
+1c employees cleaning.do      Cleaning epmloyees data set;
 
                               Saving final file as;
-                              1c merge.dta    
+                              1c employees.dta  
+
+MERGING DATA:  
+1d merge data.do              Merging earnings and sickness data;
+                              sickness earnings merged.dta
+                          
+                              Merging sickness earnings employees data and saving final file as;
+                              sickness earnings employees merged.dta                   
                               
 EVENT STUDY:                              
 2a event study.do             Use the main sample to estimate the main 10 year event study                              
