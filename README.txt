@@ -68,13 +68,23 @@ MERGING DATA:
                               
 EVENT STUDY:                              
 2a event study.do             Use the main sample to estimate the main 10 year event study                              
-        
-        
+       
+       
+       
+ROBUSTNESS ANALYSIS:                                       
+3a period change.do           Robustness analysis considering first child births in 2010-2020;
+                              3a period change.do
+      
+       
 
-ROBUSTNESS ANALYSIS:                              
-3a occupation.do             Robustness analysis considering employees employed on the basis of the 
+HETROGENOUS EFFECT ANALYSIS:
+4a occupation.do             Heterogenous analysis considering employees employed on the basis of the 
                              Danish Salaried Employees Act (funktionærloven);
-                             3a occupation.dta
+                             4a occupation.dta
+                             
+4b single moms.do            Heterogenous analysis considering single moms;
+                             4b single moms.dta
+                             
                              
 
 
