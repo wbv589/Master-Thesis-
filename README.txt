@@ -68,23 +68,34 @@ MERGING DATA:
                               
 EVENT STUDY:                              
 2a event study.do             Use the main sample to estimate the main 10 year event study                              
-       
-       
-       
+
+
+OAXACA-BLINDER METHOD:      
+3a Oaxaca-Blinder.do         Estimation;
+                             3a Oaxaca-Blinder.dta
+
+3b Oaxaca-Blinder.do         Extrapolation of gaps
+                             3b Oaxaca-Blinder gaps basic.dta
+
+3c Oaxaca-Blinder.do         Decomposition
+                             3c Oaxaca-Blinder.dta
+
+
 ROBUSTNESS ANALYSIS:                                       
-3a period change.do           Robustness analysis considering first child births in 2010-2020;
-                              3a period change.do
+4a period change.do           Robustness analysis considering first child births in 2010-2020;
+                              4a period change.do
       
        
 
 HETROGENOUS EFFECT ANALYSIS:
-4a occupation.do             Heterogenous analysis considering employees employed on the basis of the 
+5a occupation.do             Heterogenous analysis considering employees employed on the basis of the 
                              Danish Salaried Employees Act (funktionærloven);
-                             4a occupation.dta
+                             5a occupation.dta
                              
-4b single moms.do            Heterogenous analysis considering single moms;
-                             4b single moms.dta
+5b single moms.do            Heterogenous analysis considering single moms;
+                             5b single moms.dta
                              
-                             
+     
+     
 
 
