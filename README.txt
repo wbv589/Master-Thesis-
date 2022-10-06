@@ -67,18 +67,18 @@ MERGING DATA:
                               1d sickness earnings employees merged.dta                   
                               
 EVENT STUDY:                              
-2a event study.do             Use the main sample to estimate the main 10 year event study                              
+2a event study.do             Use the main sample to estimate the main 10 year event study; 
+                              2a event study baseline.dta
 
 
 OAXACA-BLINDER METHOD:      
-3a Oaxaca-Blinder.do         Estimation;
-                             3a Oaxaca-Blinder.dta
+3a Oaxaca-Blinder.do          Estimation;
+                              3a Oaxaca-Blinder.dta
 
-3b Oaxaca-Blinder.do         Extrapolation of gaps
-                             3b Oaxaca-Blinder gaps basic.dta
+3b Oaxaca-Blinder.do          Extrapolation of gaps
+                              3b Oaxaca-Blinder gaps basic.dta
 
-3c Oaxaca-Blinder.do         Decomposition
-                             3c Oaxaca-Blinder.dta
+3c Oaxaca-Blinder.do          Decomposition graphs.         
 
 
 ROBUSTNESS ANALYSIS:                                       
@@ -88,12 +88,12 @@ ROBUSTNESS ANALYSIS:
        
 
 HETROGENOUS EFFECT ANALYSIS:
-5a occupation.do             Heterogenous analysis considering employees employed on the basis of the 
-                             Danish Salaried Employees Act (funktionærloven);
-                             5a occupation.dta
+5a occupation.do              Heterogenous analysis considering employees employed on the basis of the 
+                              Danish Salaried Employees Act (funktionærloven);
+                              5a occupation.dta
                              
-5b single moms.do            Heterogenous analysis considering single moms;
-                             5b single moms.dta
+5b single moms.do             Heterogenous analysis considering single moms;
+                              5b single moms.dta
                              
      
      
