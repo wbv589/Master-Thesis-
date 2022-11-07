@@ -40,6 +40,12 @@ PROGRAMS DATA GENERATION:
                               Saving final file as;
                               Robustness.csv 
 
+0f data generation.sas        Process the raw data and saves the main sample in dataset; 
+                              Grandparents00
+                                
+                              Saving final file as;
+                              Grandparents.csv 
+
 
 PROGRAMS CLEANING DATA:
 1a earnings cleaning.do       Cleaning earnings (adults) data set;
@@ -67,8 +73,11 @@ MERGING DATA:
                               1d sickness earnings employees merged.dta                   
                               
 EVENT STUDY:                              
-2a event study.do             Use the main sample to estimate the main 10 year event study; 
+2a event study.do             Use the main sample to estimate the main event study; 
                               2a event study baseline.dta
+                          
+2b event study category.do    The event study divided into category; 
+                              2b event study category.dta
 
 
 OAXACA-BLINDER METHOD:      
@@ -81,21 +90,19 @@ OAXACA-BLINDER METHOD:
 3c Oaxaca-Blinder.do          Decomposition graphs.         
 
 
-ROBUSTNESS ANALYSIS:                                       
-4a period change.do           Robustness analysis considering first child births in 2010-2020;
-                              4a period change.do
-      
-       
 
 HETROGENOUS EFFECT ANALYSIS:
-5a occupation.do              Heterogenous analysis considering employees employed on the basis of the 
-                              Danish Salaried Employees Act (funktionærloven);
-                              5a occupation.dta
-                             
-5b single moms.do             Heterogenous analysis considering single moms;
-                              5b single moms.dta
-                             
+4a grandparents cleaning.do   Cleaning grandparents data set;
+                              4a grandparetns.dta
+
+4b merge grandparents.do      Merging earnings, sickness, employees and grandparetns data; 
+                              4b sickness earnings employees grandparetns merged.dta                 
+
+4c event study.do             Heterogenous event study; 
+                              4c event study heterogenous effects.dta
+                              
+4d event study category.do    The heterogenous event-study divided into category; 
+                              4d event study heterogenous effects category.dta
      
      
-
-
+     
