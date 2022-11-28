@@ -65,6 +65,11 @@ PROGRAMS CLEANING DATA:
                               Saving final file as;
                               1c employees.dta  
 
+1e the populationg.do         Cleaning epmloyees data set;
+
+                              Saving final file as;
+                              1e the population.dta 
+
 MERGING DATA:  
 1d merge data.do              Merging earnings and sickness data;
                               1d sickness earnings merged.dta
