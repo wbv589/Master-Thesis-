@@ -65,18 +65,18 @@ PROGRAMS CLEANING DATA:
                               Saving final file as;
                               1c employees.dta  
 
-1e the populationg.do         Cleaning epmloyees data set;
-
-                              Saving final file as;
-                              1e the population.dta 
-
 MERGING DATA:  
 1d merge data.do              Merging earnings and sickness data;
                               1d sickness earnings merged.dta
                           
                               Merging sickness earnings employees data and saving final file as;
                               1d sickness earnings employees merged.dta                   
-                              
+
+1e the populationg.do         Restrictions and choiches regarding the population;
+
+                              Saving final file as;
+                              1e the population.dta 
+
 EVENT STUDY:                              
 2a event study.do             Use the main sample to estimate the main event study; 
                               2a event study baseline.dta
