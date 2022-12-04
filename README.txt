@@ -81,9 +81,6 @@ EVENT STUDY:
 2a event study.do             Use the main sample to estimate the main event study; 
                               2a event study baseline.dta
                           
-2b event study category.do    The event study divided into category; 
-                              2b event study category.dta
-
 
 OAXACA-BLINDER METHOD:      
 3a Oaxaca-Blinder.do          Estimation;
